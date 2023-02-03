@@ -9,7 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Display  from './components/Display';
-import { Add } from './components/Add';
+import {Add}  from './components/Add';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,10 @@ const router = createBrowserRouter([
         path: "/display",
         element: <Display />
       },
-
+      {
+        path: "/add",
+        element: <Add />
+      },
      
     ],
   },

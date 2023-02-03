@@ -15,7 +15,7 @@ export default function NavBar() {
                             <Link className="nav-link active" aria-current="page" to="/display">Workouts</Link>
                         </li>
                         <li className="nav-item">
-                            {/* <Link className="nav-link active" aria-current="page" to="/workoutdetails">Add</Link> */}
+                            <Link className="nav-link active" aria-current="page" to="/workoutdetails">Add</Link>
                         </li>
                         <li className="nav-item">
                             {/* <Link className="nav-link active" aria-current="page" to="/visualizations">Visualizations</Link> */}
